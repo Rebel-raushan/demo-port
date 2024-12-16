@@ -1,0 +1,258 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+/* header css */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 128, 128);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-left {
+    width: 30%;
+    height: 100px;
+    /* background-color: aquas */
+}
+
+.header-left {
+    padding: 30px;
+}
+
+.header-mid {
+    width: 35%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.header-mid ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-right {
+    width: 35%;
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.header-right {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* justify-content: end; */
+    justify-content: center;
+    position: relative;
+}
+
+.header-right ul {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    justify-content: end;
+    background-color: blue;
+}
+
+.header-right ul i {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+/* section css */
+
+.section {
+    width: 100%;
+    height: 500px;
+}
+
+.section {
+    background-image: url(./images.coffee/img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.section-row {
+    text-align: center;
+}
+
+.section-row img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+.section-row h3 {
+    padding: 20px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.section-row p {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+/* section2 css */
+
+.section2 {
+    width: 100%;
+    height: 600px;
+    background-color: lightsalmon;
+}
+
+.section-head {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-head h3 {
+    font-size: 40px;
+    color: darkolivegreen;
+}
+
+.section-head p {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section2-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: end;
+    justify-content: space-around;
+}
+
+.row-left {
+    width: 33%;
+}
+
+.row-left {
+    background-image: url(./images.coffee/img4.webp);
+    background-size: cover;
+    width: 350px;
+
+}
+
+.row-left h3 {
+    padding-top: 330px;
+    padding-left: 80px;
+    color: rgb(51, 137, 102);
+    font-size: 30px;
+}
+
+.row-mid {
+    width: 33%;
+}
+
+.row-mid {
+    background-image: url(./images.coffee/img5.jpg);
+    background-size: cover;
+    width: 350px;
+
+}
+
+.row-mid h3 {
+    padding-top: 330px;
+    padding-left: 80px;
+    color: rgb(51, 137, 102);
+    font-size: 30px;
+}
+
+.row-right {
+    width: 33%;
+}
+
+.row-right {
+    background-image: url(./images.coffee/img7.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+}
+
+.row-right h3 {
+    padding-top: 330px;
+    padding-left: 80px;
+    color: rgb(51, 137, 102);
+    font-size: 30px;
+}
+
+/* section3 css */
+
+.section3 {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(251, 123, 80);
+}
+
+.section3-head {
+    padding: 20px;
+    text-align: center;
+}
+
+.section3-head h3 {
+    padding: 10px;
+    font-size: 40px;
+}
+
+.section3-head p {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.section3-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.row2-left {
+    width: 100%;
+    background-color: #c9d4cc;
+}
+
+.row2-left {
+    width: 300px;
+    height: 450px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: dotted;
+}
+
+.row2-left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.row2-left h3 {
+    font-size: 20px;
+    color: darkolivegreen;
+    padding-top: 10px;
+    /* padding: 10px; */
+    padding-left: 40px;
+}
+
+.row2-left p {
+    padding: 20px;
+}
